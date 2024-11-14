@@ -188,6 +188,7 @@ button {
     background-color: rgba(0, 0, 0, 0.2);
     margin: 12px;
     transition: 0.5s;
+    color: white;
 }
 
 button:hover {
