@@ -1,3 +1,3 @@
 # Link In Bio
 ### This is a simple link in bio template that can be freely modified with credit.
-![image](https://github.com/user-attachments/assets/e6bb860e-e556-4c78-bc5e-49ff46418f9e)
+![Screenshot 2024-11-13 at 21-22-41 Name Nameson Links](https://github.com/user-attachments/assets/2008913b-7bf1-456c-9e5d-c52d8527ff41)
