@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Heath Garvin | Links</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="/css/links.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="https://cdn.minodabproductions.dev/Web/Images_Linktree/favicon.png">
+</head>
+<body>
+<div id="loader-wrapper">
+    <div class="loader"></div>
+</div>
+<div class="container animate__animated animate__zoomInUp">
+    <img alt="pfp" class="pfp" src="https://cdn.minodabproductions.dev/Web/Images_General/profilePicture.jpg">
+    <h1 class="poppins-regular">Heath Garvin</h1>
+    <p class="poppins-light">I'm a game dev, but only technically. <br> Hey I'll be whatever makes you a fan, cause I don't know who the hell I am.</p>
+    
+    <div id="buttons-container">
+        {% for button in collections.button %}
+            <a href="{{ button.link }}" target="_blank">
+                <button class="animate__animated animate__fadeInUp">{{ button.text }}</button>
+            </a>
+        {% endfor %}
+    </div>
+
+    <footer>
+        <p class="poppins-light">
+            Template by <a href="https://github.com/ThatOnePers0n">ThatOnePers0n</a>
+        </p>
+    </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+<script>
+    $(window).on('load', function() {
+        $("#loader-wrapper").fadeOut(700);
+    });
+</script>
+</body>
+</html>

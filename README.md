@@ -1,3 +1,6 @@
 # Link In Bio
 ### This is a simple link in bio template that can be freely modified with credit.
-![Screenshot 2024-11-13 at 21-22-41 Name Nameson Links](https://github.com/user-attachments/assets/2008913b-7bf1-456c-9e5d-c52d8527ff41)
+
+This is a modified version made with Eleventy. This link tree is the same as seen (here)[https://minodabproductions.dev/links]. To set this up, create a new project with node.js, and add Eleventy as a package. Modify the HTML and CSS to change the profile picture, and backgrounds, and change the file at /data/links.json to change the button links and names that the page shows. Run npx eleventy --serve afterwards to compile the output html and css files. These will output in the _site directory. These are what you would upload/share.
+
+Credit to the Eleventy-ification to MinoDab492... I don't know why I did this, but I made it, and now you guys get to use it too.
